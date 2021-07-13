@@ -34,6 +34,8 @@
 (require 's)
 (require 'json)
 (require 'cl-lib)
+(require 'cl-extra)
+(require 'auth-source)
 
 (defvar gerrit-host)
 (defvar gerrit-patch-buffer)
